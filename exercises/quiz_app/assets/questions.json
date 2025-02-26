@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the capital of Japan?",
+    "type": "multiple_choice_one",
+    "options": ["Tokyo", "Beijing", "Seoul", "Bangkok"],
+    "correct": "Tokyo"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "type": "multiple_choice_one",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "correct": "Mars"
+  },
+  {
+    "question": "HTML stands for Hyper Text Markup Language.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "correct": "True"
+  },
+  {
+    "question": "Is Mount Everest the tallest mountain in the world?",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "correct": "True"
+  },
+  {
+    "question": "Which of the following are programming languages?",
+    "type": "multiple_choice_multiple",
+    "options": ["Python", "JavaScript", "HTML", "CSS"],
+    "correct": ["Python", "JavaScript"]
+  },
+  {
+    "question": "Which of the following animals are mammals?",
+    "type": "multiple_choice_multiple",
+    "options": ["Whale", "Shark", "Bat", "Crocodile"],
+    "correct": ["Whale", "Bat"]
+  },
+  {
+    "question": "Who wrote 'Hamlet'?",
+    "type": "multiple_choice_one",
+    "options": ["Shakespeare", "Hemingway", "Poe", "Austen"],
+    "correct": "Shakespeare"
+  },
+  {
+    "question": "Which year did the first man land on the moon?",
+    "type": "multiple_choice_one",
+    "options": ["1965", "1969", "1972", "1975"],
+    "correct": "1969"
+  },
+  {
+    "question": "Water freezes at 0 degrees Celsius.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "correct": "True"
+  },
+  {
+    "question": "Which of the following are web development frameworks?",
+    "type": "multiple_choice_multiple",
+    "options": ["React", "Vue", "Angular", "Django"],
+    "correct": ["React", "Vue", "Angular"]
+  }
+]
