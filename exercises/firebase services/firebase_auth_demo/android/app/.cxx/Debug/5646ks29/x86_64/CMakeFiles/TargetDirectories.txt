@@ -1,0 +1,2 @@
+/Users/jj/StudioProjects/firebase_auth_demo/android/app/.cxx/Debug/5646ks29/x86_64/CMakeFiles/edit_cache.dir
+/Users/jj/StudioProjects/firebase_auth_demo/android/app/.cxx/Debug/5646ks29/x86_64/CMakeFiles/rebuild_cache.dir
