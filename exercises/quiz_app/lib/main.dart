@@ -7,6 +7,8 @@ import 'package:collection/collection.dart';
 void main() => runApp(QuizApp());
 
 class QuizApp extends StatelessWidget {
+  const QuizApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,6 +21,8 @@ class QuizApp extends StatelessWidget {
 }
 
 class QuizScreen extends StatefulWidget {
+  const QuizScreen({super.key});
+
   @override
   _QuizScreenState createState() => _QuizScreenState();
 }
@@ -32,7 +36,7 @@ class _QuizScreenState extends State<QuizScreen> {
   int _timeRemaining = 60;
 
   dynamic _selectedAnswer;
-  List<String> _selectedAnswers = [];
+  final List<String> _selectedAnswers = [];
 
   @override
   void initState() {
@@ -197,9 +201,9 @@ class _QuizScreenState extends State<QuizScreen> {
                 if (_currentQuestionIndex == _questions.length - 1)
                   ElevatedButton(
                     onPressed: _submitQuiz,
-                    child: Text('Submit'),
                     style:
                         ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                    child: Text('Submit'),
                   ),
               ],
             ),
