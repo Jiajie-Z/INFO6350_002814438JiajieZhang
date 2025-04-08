@@ -1,0 +1,30 @@
+# Flutter/Dart/Pub related
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_export_environment.sh
+
+# iOS related
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android related
+android/app/debug
+android/app/profile
+android/app/release
+
+# IntelliJ related
+*.iml
+.idea/
+
+# VS Code related
+.vscode/
+
+# macOS
+.DS_Store
+
+# Other
+*.log
