@@ -6,6 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart'
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_ui_oauth_google/firebase_ui_oauth_google.dart';
 
 import 'firebase_options.dart';
 import 'guest_book_message.dart';
@@ -47,6 +48,7 @@ class ApplicationState extends ChangeNotifier {
 
     FirebaseUIAuth.configureProviders([
       EmailAuthProvider(),
+      GoogleProvider(clientId: "475518176076-432n7l1oouvhir95ei6gbncc5sarb8sf.apps.googleusercontent.com"),
     ]);
 
     FirebaseFirestore.instance
