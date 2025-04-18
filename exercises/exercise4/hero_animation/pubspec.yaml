@@ -2,7 +2,7 @@ name: hero_animation
 publish_to: none
 description: Shows how to create a simple Hero transition.
 
-resolution: workspace
+
 environment:
   sdk: ^3.7.0
 
